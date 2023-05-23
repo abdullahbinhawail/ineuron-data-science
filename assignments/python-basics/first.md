@@ -9,6 +9,7 @@
 - `+`
 - `6`
 
+
 ans: 
 
 - `*` : expression
@@ -22,6 +23,7 @@ ans:
 
 
 2. What is the difference between string and variable?
+
 ans: 
 - string: a string is a data-type. Anything between double quotes(" ") or single quotes(' ') is a string
    ex: "body" or '123'
@@ -32,6 +34,7 @@ ans:
 
 
 3. Describe three different data types.
+
 ans:
 - Integer: it is a whole number, positive or negative ,but without the decimal point. It have unlimited length.
 
@@ -43,6 +46,7 @@ ans:
 
 
 4. What is an expression made up of? What do all expressions do?
+
 ans:
 - expression is made up of combination of variables, operators, or function calls that return a single value.
 - with the help of expression, we can compute values, assign values, return values, we can also used it for passing an argument or in control flow statement.
