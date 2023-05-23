@@ -10,14 +10,16 @@
 - 6
 
 ans: 
--  * : expression
-- 'hello' : value
-- -87.8 : value
-- - : expression
-- + : expression
-- / : expression
-- + : expression
-- 6 : value
+
+- `*` : expression
+- `'hello'` : value
+- `-87.8` : value
+- `-` : expression
+- `+` : expression
+- `/` : expression
+- `+` : expression
+- `6` : value
+
 
 2. What is the difference between string and variable?
 ans: 
@@ -27,6 +29,8 @@ ans:
  - variable: a variable is used to assign or store the    values at a specific memory location. It is like a BOX or CONTAINER.
   ex: num = 65     or      marks = 88.8
 
+
+
 3. Describe three different data types.
 ans:
 - Integer: it is a whole number, positive or negative ,but without the decimal point. It have unlimited length.
@@ -34,6 +38,9 @@ ans:
 - float: floating point number are with decimal values or fractional values like 67.9
 
 - boolean: It returns the true or false based on the condition.
+
+
+
 
 4. What is an expression made up of? What do all expressions do?
 ans:
