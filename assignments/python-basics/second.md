@@ -152,11 +152,14 @@ Ans:
 Ans:
 
 ```
- There is no difference between range(10), range(0, 10) and range(0, 10, 1). They all will produce the same output. Because the default value of start is 0 and the default value of step is 1.
+ There is no difference between range(10), range(0, 10) and range(0, 10, 1). 
+ They all will produce the same output. 
+ Because the default value of start is 0 and the default value of step is 1.
 ```
 
 
-12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+12. Write a short program that prints the numbers 1 to 10 using a for loop. 
+Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
 
 Ans:
 
