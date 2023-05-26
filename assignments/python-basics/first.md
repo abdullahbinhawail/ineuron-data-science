@@ -69,6 +69,7 @@ ans:
 
 
 6. **After running the following code, what does the variable bacon contain?**
+
 - `bacon = 22`
 - `baccon + 1`
 
@@ -80,11 +81,12 @@ ans:
 
 
 7. **What should the values of the following two terms be?**
+
 `'spam' + 'spamspam'`
 `'spam' * 3`
 
 ans:
-- `'spam' + 'spamspam'` : `'spamspamspam'`
+- `'spam' + 'spamspam'` 
 - `'spam' * 3` : `'spamspamspam'`
 
 
@@ -108,6 +110,7 @@ ans:
 
 
 10. **Why does this expression cause an error? How can you fix it?**
+
 'I have eaten ' + 99 + ' burritos.'
 
 ans:
