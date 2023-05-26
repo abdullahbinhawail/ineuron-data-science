@@ -4,11 +4,13 @@
  1. What are the two values of the Boolean data type? How do you write them?
 
 Ans:
+
  `True` and `False` are the two values of the Boolean data type. We write them as `True` and `False`.
 
 2. What are the three different types of boolean operators?
 
 Ans:
+
  The three different types of boolean operators are `AND`, `OR` and `NOT`.
 
 3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
@@ -53,7 +55,8 @@ not (5 > 4)
 (5 > 4) or (3 == 5)
 ```
 
-Answer:
+Ans:
+
 ```
 (5 > 4) and (3 == 5) : False, because 3 is not equal to 5 and the AND operator requires both the operands to be true.
 not (5 > 4) : False, because 5 is greater than 4 and the NOT operator will return the opposite of the operand.
@@ -63,6 +66,7 @@ not (5 > 4) : False, because 5 is greater than 4 and the NOT operator will retur
 5. What are the six comparison operators?
 
 Ans:
+
  The six comparison operators are:
 - `==` : Equal to
 - `!=` : Not equal to
@@ -74,7 +78,9 @@ Ans:
 6. How do you tell the difference between the equal to and assignment operators Describe a condition and when you would use one.
 
 Ans:
+
  The equal to operator is `==` and the assignment operator is `=`. The equal to operator is used to compare two values whereas the assignment operator is used to assign a value to a variable. For example, `a = 10` is an assignment statement whereas `a == 10` is a comparison statement.
+
 
 7. Identify the three blocks in this code:
 ```
@@ -90,6 +96,7 @@ print('spam')
 ```
 
 Ans:
+
  Very first let me explain what `block` means in python. So, you can simply consider blocks of code as paragraphs in essays and these blocks are based on the indentation. So, the three blocks in the above code are:
 
 - BLOCK 1: everything inside the first if statement
@@ -114,6 +121,7 @@ print('ham')
 8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
 
 Ans:
+
 ```
 if spam == 1:
     print('Hello')
@@ -126,21 +134,25 @@ else:
 9. If your programme is stuck in an endless loop, what keys you’ll press?
 
 Ans: 
+
 - `Ctrl + C`
 
 10. How can you tell the difference between break and continue?
 
 Ans:
+
  The break statement will stop the execution of the loop and the continue statement will skip the current iteration and continue with the next iteration.
 
 11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
 
 Ans:
+
  There is no difference between range(10), range(0, 10) and range(0, 10, 1). They all will produce the same output. Because the default value of start is 0 and the default value of step is 1.
 
 12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
 
 Ans:
+
 - Using for loop
 ```
 for i in range(1, 11):
@@ -157,4 +169,5 @@ while i <= 10:
 13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
 
 Ans:
+
 - `spam.bacon()`
