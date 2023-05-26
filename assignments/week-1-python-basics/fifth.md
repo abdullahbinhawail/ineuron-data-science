@@ -15,6 +15,7 @@ Example:
 2. What is the value of a dictionary value with the key 'foo' and the value 42?
 
 Answer: 
+
 `{'foo': 42}` will be the value of a dictionary value with the key 'foo' and the value 42.
 
 Example:
