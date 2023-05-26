@@ -27,6 +27,7 @@ ans:
 2. **What is the difference between string and variable?**
 
 ans: 
+
 - string: a string is a data-type. Anything between double quotes(" ") or single quotes(' ') is a string
    ex: "body" or '123'
  
