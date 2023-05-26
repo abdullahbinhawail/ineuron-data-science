@@ -10,6 +10,8 @@ Ans:
 
 
 
+
+
 2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
 
 Ans:
@@ -22,6 +24,8 @@ Let's pretend the spam includes the list [a, b, c, d] for the next three queries
 
 
 
+
+
 3. What is the value of spam[int(int('3' * 2) / 11)]?
 
 Ans: 
@@ -30,11 +34,15 @@ Ans:
 
 
 
+
+
 4. What is the value of spam[-1]?
 
 Ans:
 
  `d` will be printed. Because `-1` is the index of the last element in the list.
+
+
 
 
 
@@ -48,11 +56,15 @@ Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next thr
 
 
 
+
+
 6. What is the value of bacon.index('cat')?
 
 Ans:
 
  `1` will be printed. Because `bacon.index('cat')` will return the index of the first occurence of `cat` in the list.
+
+
 
 
 
@@ -64,11 +76,13 @@ Ans:
 
 
 
+
 8. How does `bacon.remove('cat')` change the look of the list in bacon?
 
 Ans:
 
  `bacon` will be `[3.14, 11, 'cat', True]`. It will remove the first occurence of `cat` from the list.
+
 
 
 
@@ -90,11 +104,13 @@ Example:
 ```
 
 
+
 10. What is difference between the list methods append() and insert()?
 
 Ans:
 
  `append()` method adds the element at the end of the list whereas `insert()` method adds the element at the specified index.
+
 
 
 
@@ -108,6 +124,7 @@ Ans:
 
 
 
+
 12. Describe how list values and string values are identical.
 
 Ans: 
@@ -115,6 +132,7 @@ Ans:
 - Both list and string values are ordered sequences of values.
 - Both list and string values can be accessed using index.
 - Both list and string values can be sliced.
+
 
 
 
@@ -131,11 +149,13 @@ Ans:
 
 
 
+
 14. How do you type a tuple value that only contains the integer 42?
 
 Ans: 
 
 `(42,)` will be a tuple value that only contains the integer 42.
+
 
 
 
@@ -155,11 +175,14 @@ Example:
 [4, 5, 6]
 ```
 
+
+
 16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
 
 Ans: 
 
 Variables that "contain" list values are references to list values. Because a list value is actually a reference to a list.
+
 
 
 17. How do you distinguish between copy.copy() and copy.deepcopy()?
