@@ -77,6 +77,7 @@ def add(a, b):
 6. What is the operation of this special character ‘\’?
 
 Answer: 
+
 The `\` character is used to escape characters that otherwise have a special meaning, such as newline, backslash itself, or the quote character.
 
 Example:
