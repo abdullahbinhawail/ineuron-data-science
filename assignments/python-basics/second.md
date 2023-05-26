@@ -137,17 +137,24 @@ Ans:
 
 - `Ctrl + C`
 
+
 10. How can you tell the difference between break and continue?
 
 Ans:
 
+```
  The break statement will stop the execution of the loop and the continue statement will skip the current iteration and continue with the next iteration.
+```
+
 
 11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
 
 Ans:
 
+```
  There is no difference between range(10), range(0, 10) and range(0, 10, 1). They all will produce the same output. Because the default value of start is 0 and the default value of step is 1.
+```
+
 
 12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
 
