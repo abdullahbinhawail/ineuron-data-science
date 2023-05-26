@@ -142,9 +142,8 @@ Ans:
 
 Ans:
 
-```
  The break statement will stop the execution of the loop and the continue statement will skip the current iteration and continue with the next iteration.
-```
+
 
 
 11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
